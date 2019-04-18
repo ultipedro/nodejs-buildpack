@@ -166,5 +166,7 @@ dependencies:
   sha256: 3bfa889d260e0dbabcf5b9967f2aae12edcd2ddc9adc365de7a5cc840c311d15
   cf_stacks:
   - cflinuxfs2
-  - cflinuxfs3  
+  - cflinuxfs3
+  source: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libsecret/0.18.8-1/libsecret_0.18.8.orig.tar.xz
+  source_sha256: 3bfa889d260e0dbabcf5b9967f2aae12edcd2ddc9adc365de7a5cc840c311d15
 pre_package: scripts/build.sh
